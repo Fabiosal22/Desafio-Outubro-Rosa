@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  color: #E4EEF1;
+}
+
+header {
+  background-color: #FF69B4;
+  display: flex;
+  height: 16.97vh;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div1 {
+  color: #E4EEF1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div1 .imgheader {
+  width: 6.51vw;
+  height: 14.38vh;
+}
+
+.div2 {
+  width: 26.36vw;
+  display: flex;
+  justify-content: space-between;
+}
+.div2 button {
+  background-color: #FF69B4;
+  border: none;
+}
+
+main {
+  border: solid green;
+  display: flex;
+  display: block;
+  background-color: #FFD9EC;
+}
+main .quadro1 {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-block-end: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+main .quadro1 .text1 {
+  color: #000000;
+}
+main .quadro1 .img {
+  width: 365px;
+  height: 355px;
+}
+main .quadro2 {
+  background-color: #FF69B4;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-block-end: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .quadro2 .img {
+  width: 365px;
+  height: 355px;
+}
+main .quadro2 p {
+  padding-left: 25px;
+}
+main .quadro3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+footer {
+  display: flex;
+  background-color: #FF69B4;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+footer .div3 {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+footer .div4 ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
