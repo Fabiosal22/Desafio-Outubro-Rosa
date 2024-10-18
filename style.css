@@ -1,50 +1,102 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
   font-family: "Noto Sans", sans-serif;
-  color: #E4EEF1;
+  color: white;
 }
 
 header {
+  height: 15vh;
   background-color: #FF69B4;
   display: flex;
-  height: 16.97vh;
-  padding-left: 30px;
-  padding-right: 30px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+@media (max-width: 770px) {
+  header {
+    flex-direction: column;
+    height: 30vh;
+  }
 }
 
-.div1 {
-  color: #E4EEF1;
+.BoxLogo {
+  width: 25vw;
   display: flex;
   align-items: center;
-  justify-content: center;
+  color: white;
 }
-.div1 .imgheader {
-  width: 6.51vw;
-  height: 14.38vh;
+@media (max-width: 770px) {
+  .BoxLogo {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.BoxLogo h1 {
+  font-size: 1.7vw;
+  font-weight: 400;
+}
+@media (max-width: 770px) {
+  .BoxLogo h1 {
+    font-size: 2.5vw;
+  }
+}
+@media (max-width: 500px) {
+  .BoxLogo h1 {
+    font-size: 3.1vw;
+  }
+}
+@media (max-width: 1000px) {
+  .BoxLogo img {
+    width: 9vw;
+  }
+}
+@media (max-width: 770px) {
+  .BoxLogo img {
+    width: 12vw;
+  }
+}
+@media (max-width: 500px) {
+  .BoxLogo img {
+    width: 15vw;
+  }
 }
 
-.div2 {
-  width: 26.36vw;
-  display: flex;
-  justify-content: space-between;
+nav {
+  width: 40vw;
 }
-.div2 button {
-  background-color: #FF69B4;
-  border: none;
+@media (max-width: 770px) {
+  nav {
+    width: 100%;
+  }
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5vw;
+}
+@media (max-width: 770px) {
+  nav ul {
+    justify-content: space-evenly;
+    font-size: 2.3vw;
+  }
+}
+@media (max-width: 500px) {
+  nav ul {
+    font-size: 3vw;
+  }
 }
 
 main {
-  border: solid green;
   display: flex;
   display: block;
   background-color: #FFD9EC;
 }
-main .quadro1 {
+main .Box1 {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 15px;
@@ -54,14 +106,18 @@ main .quadro1 {
   justify-content: center;
   justify-content: space-around;
 }
-main .quadro1 .text1 {
+main .Box1 .text1 {
+  font-size: 1.5vw;
+  font-weight: 400;
   color: #000000;
 }
-main .quadro1 .img {
+main .Box1 .img {
   width: 365px;
   height: 355px;
 }
-main .quadro2 {
+main .Box2 {
+  font-size: 1.5vw;
+  font-weight: 400;
   background-color: #FF69B4;
   padding-left: 30px;
   padding-right: 30px;
@@ -69,16 +125,17 @@ main .quadro2 {
   padding-block-end: 15px;
   display: flex;
   align-items: center;
+  color: white;
   justify-content: space-around;
 }
-main .quadro2 .img {
+main .Box2 .img {
   width: 365px;
   height: 355px;
 }
-main .quadro2 p {
+main .Box2 p {
   padding-left: 25px;
 }
-main .quadro3 {
+main .Box3 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,6 +157,8 @@ footer .div3 {
   justify-content: space-around;
 }
 footer .div4 ul {
+  font-size: 1.1vw;
+  font-weight: 400;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
