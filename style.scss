@@ -10,7 +10,7 @@
     font-family: "Noto Sans", sans-serif;
     color: white;
 }
-
+//-----------------HEADER---------------------
 header{
     height: 15vh;
     background-color: #FF69B4;
@@ -27,7 +27,6 @@ header{
     width: 25vw;
     display: flex;
     align-items: center;
-    color: white;
     @media (max-width: 770px){
       flex-direction: column;  
       width: 100%;
@@ -57,7 +56,7 @@ header{
 }
 
 nav{
-    // border: solid 2px yellow;  
+    
     width: 40vw;
     @media (max-width: 770px){
         width: 100%;
@@ -66,7 +65,7 @@ nav{
       display: flex; 
       align-items: center;
       justify-content: space-between;
-      font-size: 1.5vw; 
+      font-size: 1.62vw; 
       @media (max-width: 770px){
         justify-content: space-evenly;
         font-size: 2.3vw;
@@ -77,31 +76,36 @@ nav{
     }
 }
         
-        
+//-----------------MAIN----------------       
 main{
 
 display: flex;
 display: block;
 background-color: #FFD9EC;
 
-.Box1{
-   .text1{
-    font-size: 1.5vw;
-        font-weight: 400;
-    color:#000000;}
-   padding-left: 30px;
-   padding-right: 30px;
-   padding-top: 15px;
-   padding-block-end: 15px;
-    display: flex;
-  align-items: center;
-  justify-content: center;
-  justify-content: space-around;
-  .img{width: 365px;
+.sessaoSOBRE{
+height: 54.24vh;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 15px;
+padding-block-end: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+justify-content: space-around;
+.img{width: 365px;
 height: 355px;}
+
+.text1{
+    font-size: 2vw;
+    font-weight: 400;
+color:#000000;}
+
 }
 
-.Box2{font-size: 1.5vw;
+.sessaoCONSCIENTIZAÇÃO{
+    height: 37.69vh;
+    font-size: 2vw;
     font-weight: 400;
     background-color:#FF69B4 ;
     padding-left: 30px;
@@ -115,8 +119,11 @@ height: 355px;}
    .img{width: 365px;
  height: 355px;}
  p{padding-left: 25px;}
+
 }
-.Box3{display: flex;
+.sessaoDICAS{
+    height: 61.29vh;
+    display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-around;
@@ -125,6 +132,7 @@ height: 355px;}
 }
 }
 
+//--------------------FOOTER--------------------
 
 footer{
     display: flex;
